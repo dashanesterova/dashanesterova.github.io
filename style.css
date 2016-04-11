@@ -1,7 +1,10 @@
 .column1, .column2, .column3{
 float: left;
+color: blue;
+font-family: helvetica;
 
 }
+
 
 h1 {
   text-align: center;
