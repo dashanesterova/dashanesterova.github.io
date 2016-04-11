@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
-  <link rel="stylesheet" href="">
-</head>
-<body>
-
-<h1>Hi</h1>
-
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <button id="new-game">New Game</button>
+    <div id="grid">
+      <div class='column1'>
+        <div class='box col1 row1 diagnal1'></div>
+        <div class='box col1 row2 '></div>
+        <div class='box col1 row3 diagnal2'></div>
+      </div>
+      <div class='column2'>
+        <div class='box col2 row1'></div>
+        <div class='box col2 row2 diagnal1 diagnal2'></div>
+        <div class='box col2 row3'></div>
+      </div>
+      <div class='column3'>
+        <div class='box col3 row1 diagnal2'></div>
+        <div class='box col3 row2'></div>
+        <div class='box col3 row3 diagnal1'></div>
+      </div>
+    </div>
+  </body>
 </body>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
 </html>
