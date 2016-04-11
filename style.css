@@ -1,5 +1,6 @@
 .column1, .column2, .column3{
-  display: inline-block;
+float: left;
+
 }
 
 h1 {
@@ -37,8 +38,7 @@ h1 {
 #grid {
   position: absolute;
   left: 25%;
-  width:50%;
-  text-align: center;
+  border: 5px outset pink;
 }
 
 body {
